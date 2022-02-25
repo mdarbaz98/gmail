@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./MailList.css";
 import CheckBoxOutlineBlankIcon from "@material-ui/icons/CheckBoxOutlineBlank";
 import { IconButton } from "@material-ui/core";
