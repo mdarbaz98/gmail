@@ -1,0 +1,44 @@
+.Mail_tabs{
+    padding: 15px 20px;
+    width: 250px;
+    height: 55px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.Mail_tabs:hover{
+    background-color: whitesmoke;
+}
+
+.Mail_tabs h6, .Mail_tabs svg{
+    color: gray;
+}
+
+.activeTab{
+    border-bottom: solid 3px #d93025;
+}
+
+.activeTab h6,.activeTab svg{
+    color: #d93025 !important;
+    font-weight: 700;
+}
+
+.Mail_tabs span{
+    color: rgb(151, 151, 151);
+}
+
+.badg{
+    text-transform: lowercase !important;
+    border-radius: 50px;
+    padding: 0px 5px;
+    color: #fff !important;
+    font-size: 14px;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: rgb(98, 130, 236);
+}

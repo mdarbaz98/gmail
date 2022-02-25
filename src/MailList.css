@@ -1,0 +1,69 @@
+.mail_list{
+    padding: 0px 10px;
+    margin-right: 10px;
+    border-bottom: solid 1px rgb(235, 235, 235);
+    cursor: pointer;
+    height: 43px;
+}
+
+.mail_list:hover{
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.mail_list:hover .mail_list_left svg{
+    color: gray;
+}
+
+.mail_Title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mail_para{
+    font-size: 16px;
+    color: gray !important;
+    font-weight: 400;
+}
+
+.mail_timing{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.mail_list_left svg{
+    color: rgb(172, 172, 172);
+}
+
+.star{
+    margin-left: -16px;
+}
+
+.mail_list_left{
+    min-width: 265px;
+}
+
+.mail_list_middle{
+    display: flex;
+    flex: 90%;
+}
+
+.mail_msg{
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 600px;
+    position: relative;
+}
+
+
+.mail_list_right{
+    width: 100%;
+    text-align: end;
+}
+
+.mail_Title.first{
+    width: 160px;
+    height: 20px;
+    overflow: hidden;
+}

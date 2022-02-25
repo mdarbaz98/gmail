@@ -1,0 +1,23 @@
+.inner_mail_body{
+    padding: 15px 30px 0px 15px;
+}
+
+.mail_body{
+    padding-left: 20px;
+}
+
+.mail_body_header svg{
+    color: gray;
+}
+
+.mail_body_header_left > h4{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+}
+
+.mail_msg_body{
+
+}
+

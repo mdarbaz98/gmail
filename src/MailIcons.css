@@ -1,0 +1,22 @@
+.slide_arrow{
+    margin-left: -23px !important;
+}
+
+.mail_icons{
+    padding: 4px  20px 4px 0px;
+    border: solid whitesmoke 3px;
+    border-left: 0px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+}
+
+.pagi{
+    font-size: 14px;
+    color: gray;
+}
+
+.pagination .MuiSvgIcon-root{
+    font-size: 14px !important;
+}

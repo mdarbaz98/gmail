@@ -1,0 +1,5 @@
+.Body_section{
+    padding-left: 20px;
+    min-height: 400px;
+    overflow-y: auto;
+}

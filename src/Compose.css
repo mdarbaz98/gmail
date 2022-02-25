@@ -1,0 +1,102 @@
+.compose{
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    width: 570px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 20;
+}
+
+.mini{
+    width: 310px !important;
+}
+
+.Compose_header{
+    background: #404040;
+    color: white;
+    padding: 10px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.compose_header_right svg{
+    font-size: 20px !important;
+    color: rgb(199, 199, 199);
+}
+
+
+.arrow{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+
+.Compose_body > input{
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.Compose_body > textarea{
+    border: none;
+    margin-top: 5px;
+}
+
+.Compose_body > input,.Compose_body > textarea{
+    outline: none;
+    padding: 0px 20px;
+}
+
+.Compose_footer{
+    padding: 15px;
+}
+
+.button_section{
+    position: relative;
+    width: 105px;
+}
+
+.Send_button,.drop_arrow{
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+}
+
+.compose_header_right span{
+    padding: 0px 4px;
+    cursor: pointer;
+}
+
+.compose_header_right span:hover{
+    background-color: #707070;
+}
+
+.compose_header_right span:hover svg{
+    color: #fff !important;
+}
+
+.drop_arrow{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 28px !important;
+    height: 100% !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: solid rgb(85, 85, 85) 1px;
+}
+
+ .Compose_footer svg{
+    color: gray ;
+    font-size: 24px !important;
+}
+
+.Compose_footer .Button{
+    min-width: unset !important;
+}
+
+

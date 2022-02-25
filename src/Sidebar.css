@@ -1,0 +1,45 @@
+.side_bar .compose_btn{
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 20px 0px 20px 10px;
+
+}
+
+.side_bar .MuiSvgIcon-root{
+    font-size: 32px !important;
+}
+
+.side_bar > h6{
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.side_bar > hr{
+    color: #a7a7a7;
+}
+
+.sideInner{
+    height: 230px;
+    overflow: hidden;
+}
+
+.sideInner:hover{
+    overflow-y: scroll;
+    margin-right: -12px;
+}
+
+.sideInner::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+.sideInner::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+ 
+.sideInner::-webkit-scrollbar-thumb {
+    background-color: rgb(212, 212, 212);
+}
